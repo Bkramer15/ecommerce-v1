@@ -1,0 +1,89 @@
+{
+    "Brands": [
+      {
+        "model": "x350",
+        "type": "Riding",
+        "price": 3000,
+        "image": "https://www.deere.com/assets/images/region-4/products/mowers/lawn-tractors/x300-select-series/x350_42in_r4x001615_rrd_1024x576_large_7b44092b57620ab441f03ebdda05f9414223299a.jpg",
+        "description": "Engine is smooth-running and reliable V-twin"
+      },
+      {
+        "model": "E130",
+        "type": "riding",
+        "price": 2200,
+        "image": "https://www.deere.africa/assets/images/region-4/products/mowers/lawn-tractors/e100-series/e130/e130_lawn_tractor_r4g035018_large_07eb73013ac6306fdb11751aad0a5db14ae3df5c.jpg",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "B130",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn20VNNCzcaPCWI0iFE3_hzezcmTgPGC7vDDnlI9R3kw&s",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "BR234",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://cdn2.toro.com/en/-/media/Images/Toro/Homeowner/category-page/2024/Category-Page-Images/battery-mower-21466.ashx?h=50%25&w=50%25&la=en&hash=05269AC4290E10CAAB5B7988B4162DACC800666F",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "ZT370",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://i5.walmartimages.com/seo/YARDMAX-21-in-170cc-3-in-1-Gas-Walk-Behind-Push-Lawn-Mower-with-High-Rear-Wheels_8726f409-abae-4e04-b051-d0a248006eae.1310bc3b6a4cd018805043e183208ceb.jpeg",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "PL329",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image":"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525831_rd.jpg",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "KP904",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://media.tractorsupply.com/is/image/TractorSupplyCompany/1868837?wid=456&hei=456&fmt=jpeg&qlt=100,0&resMode=sharp2&op_usm=0.9,1.0,8,0",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "NG238",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://imageio.forbes.com/specials-images/imageserve/660462e00edcb1738d99fc65/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "SD123",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://www.bobbyfordkubota.com/wp-content/uploads/2023/12/How-Long-Do-Riding-Lawn-Mowers-Last.jpg",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+      {
+        "model": "PO390",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQSX4Rr7xspqBfjDgsO3NZ_gjvAbE7h-gGB-NLOAsTA&s",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+      },
+     {
+        "model": "WCW143",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIAs3k_LGAkZW8l2zR2AoZUMlonN-BZsefn2A4RuY9QQ&s",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+    },
+    {
+        "model": "LCJ384",
+        "type": "Lawn Tractor",
+        "price": 2200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzD7EHCQ5UQ0pI8ExHKYAUiYtOFEstaD8SMsmdCOxL6w&s",
+        "description": "Deep deck mower design lifts grass for a clean, even cut"
+    }
+    ]
+  }
+  

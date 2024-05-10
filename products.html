@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css">
+    <title>Display Data</title>
+</head>
+<body>
+    <header>
+        <h1>THE MOWER SHOP™</h1>
+        <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="signIn.html" onclick="toggleMenu()">Sign In</a></li>
+                    <li><a href="contact.html" onclick="toggleMenu()">Sevices</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="search">
+        <input type="text"  id="input" placeholder="search...">
+    </div>
+    <div class="data-container">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
