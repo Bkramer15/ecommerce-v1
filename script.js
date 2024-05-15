@@ -136,7 +136,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Function to handle search functionality
-// Function to handle search functionality
 function searchProducts() {
   const searchQuery = document.getElementById('searchInput').value.trim().toLowerCase();
   const products = document.querySelectorAll('.data-item');
