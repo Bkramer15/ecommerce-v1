@@ -1,0 +1,1 @@
+This is a ecommerce site that contains 12 proudcts along wiht allowing users to search through the products to find a spoecific product based on their search.It implements JS fomr validation and othwer functional features to become a mroe realistic webiste and improve user experience.
