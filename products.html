@@ -19,15 +19,17 @@
                 <ul class="menu-links">
                     <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
                     <li><a href="signIn.html" onclick="toggleMenu()">Sign In</a></li>
-                    <li><a href="contact.html" onclick="toggleMenu()">Sevices</a></li>
+                    <li><a href="signup.html" onclick="toggleMenu()">Sign UP</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <div class="search">
-        <input type="text"  id="input" placeholder="search...">
+        <input type="text" id="searchInput" placeholder="Search products...">
+        <button onclick="searchProducts()">Search</button>
     </div>
     <div class="data-container">
+        <!-- Product items will be dynamically added here -->
     </div>
     <script src="script.js"></script>
 </body>

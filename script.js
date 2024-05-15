@@ -53,6 +53,7 @@ for (let i = 0; i < acc.length; i++) {
 }
 
 // Function to validate sign-in page
+// Function to validate sign-in page
 function validateSignIn() {
   const usernameInput = document.getElementById('username');
   const passwordInput = document.getElementById('password');
@@ -66,15 +67,86 @@ function validateSignIn() {
     return false;
   }
 
-  // You can add more specific validation here, like checking username format, password strength, etc.
+  // Check username format (e.g., alphanumeric characters only)
+  const usernameRegex = /^[a-zA-Z0-9]+$/;
+  if (!usernameRegex.test(username)) {
+    alert('Username can only contain letters and numbers.');
+    return false;
+  }
+
+  // Check password strength (e.g., at least 8 characters with a mix of letters, numbers, and special characters)
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  if (!passwordRegex.test(password)) {
+    alert('Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character.');
+    return false;
+  }
 
   return true;
 }
 
-// Attach event listener to sign-in form submission
-const loginForm = document.getElementById('login-form');
-loginForm.addEventListener('submit', function(event) {
-  if (!validateSignIn()) {
-    event.preventDefault(); // Prevent form submission if validation fails
+// Event listener for form submission
+document.getElementById('login-form').addEventListener('submit', function(event) {
+  // Prevent default form submission
+  event.preventDefault();
+  
+  // Call validateSignIn() function
+  if (validateSignIn()) {
+    // If validation passes, submit the form
+    this.submit();
   }
 });
+
+//signup form validation
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.form');
+
+  form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default form submission
+      
+      // Get form inputs
+      const firstName = document.getElementById('fname').value.trim();
+      const lastName = document.getElementById('lname').value.trim();
+      const phoneNumber = document.getElementById('phoneNumber').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const userName = document.getElementById('userName').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      // Validation checks
+      if (firstName === '' || lastName === '' || phoneNumber === '' || email === '' || userName === '' || password === '') {
+          alert('Please fill in all fields.');
+          return;
+      }
+
+      const phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+      if (!phoneRegex.test(phoneNumber)) {
+          alert('Please enter a valid phone number (xxx-xxx-xxxx).');
+          return;
+      }
+
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+          alert('Please enter a valid email address.');
+          return;
+      }
+
+      // If all validations pass, submit the form
+    
+        window.location.href="products.html"
+  });
+});
+
+// Function to handle search functionality
+// Function to handle search functionality
+function searchProducts() {
+  const searchQuery = document.getElementById('searchInput').value.trim().toLowerCase();
+  const products = document.querySelectorAll('.data-item');
+
+  products.forEach(product => {
+      const productName = product.querySelector('h3').innerText.toLowerCase();
+      if (productName.includes(searchQuery)) {
+          product.style.display = 'block'; // Show matching product
+      } else {
+          product.style.display = 'none'; // Hide non-matching product
+      }
+  });
+}
