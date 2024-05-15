@@ -31,3 +31,15 @@ function validateSignIn() {
   
     return true;
 }
+
+// Event listener for form submission
+document.getElementById('login-form').addEventListener('submit', function(event) {
+    // Prevent default form submission
+    event.preventDefault();
+    
+    // Call validateSignIn() function
+    if (validateSignIn()) {
+      // If validation passes, submit the form
+      this.submit();
+    }
+  });
